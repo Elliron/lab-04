@@ -1,0 +1,89 @@
+header {
+  background-color: blue;
+}
+
+main section:first-of-type {
+  background-color: yellow;
+}
+main section:nth-of-type(2) {
+  background-color: rgb(123, 55, 126);
+}
+main section:nth-of-type(3) {
+  background-color: pink;
+}
+main section:nth-of-type(4) {
+  background-color: orange;
+}
+main section:nth-of-type(5) {
+  background-color: salmon;
+}
+main section:nth-of-type(6) {
+  background-color: red;
+}
+main section:nth-of-type(7) {
+  background-color: teal;
+}
+footer {
+  background-color: grey;
+}
+
+@media (min-width: 960px){
+  header {
+    background-color: rgb(31, 201, 96);
+  }
+  
+  main section:first-of-type {
+    background-color: rgb(79, 12, 204);
+  }
+  main section:nth-of-type(2) {
+    background-color: rgb(226, 82, 15);
+  }
+  main section:nth-of-type(3) {
+    background-color: rgb(10, 214, 170);
+  }
+  main section:nth-of-type(4) {
+    background-color: rgb(165, 31, 170);
+  }
+  main section:nth-of-type(5) {
+    background-color: rgb(154, 190, 21);
+  }
+  main section:nth-of-type(6) {
+    background-color: rgb(84, 20, 187);
+  }
+  main section:nth-of-type(7) {
+    background-color: rgb(48, 197, 18);
+  }
+  footer {
+    background-color: rgb(22, 38, 126);
+  }
+}
+@media (min-width: 1200px){
+  header {
+    background-color: blue;
+  }
+  
+  main section:first-of-type {
+    background-color: yellow;
+  }
+  main section:nth-of-type(2) {
+    background-color: rgb(123, 55, 126);
+  }
+  main section:nth-of-type(3) {
+    background-color: pink;
+  }
+  main section:nth-of-type(4) {
+    background-color: orange;
+  }
+  main section:nth-of-type(5) {
+    background-color: salmon;
+  }
+  main section:nth-of-type(6) {
+    background-color: red;
+  }
+  main section:nth-of-type(7) {
+    background-color: teal;
+  }
+  footer {
+    background-color: grey;
+  }
+}
